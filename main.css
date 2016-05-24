@@ -1,0 +1,13 @@
+h1 {
+	font-family: Arial;
+	color: #2e69a3;
+}
+
+.menu {
+
+}
+
+.container {
+	background-image: url("images/Sunset.JPG");
+	background-size: cover;
+}
