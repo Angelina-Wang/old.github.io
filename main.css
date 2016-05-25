@@ -42,6 +42,10 @@ li a:hover {
 	border-width: 3px;
 }
 
+.container {
+	background-color: #D1D0CE;
+}
+
 .active {
 	background-color: #25383C;
 }
@@ -50,9 +54,10 @@ li a:hover {
 	font-family: Trebuchet MS;
 }
 
-.content {
+.homecontent {
 	background-image: url("images/Longbay.jpg");
 	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .links {
