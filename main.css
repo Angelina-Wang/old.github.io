@@ -1,8 +1,8 @@
 h1 {
 	font-family: Arial;
-	color: #2e69a3;
+/*	color: #2e69a3;
 	position: center;
-	margin-top: 20px;
+	margin-top: 20px;*/
 }
 
 ul {
@@ -34,6 +34,8 @@ li a:hover {
 }
 
 #name {
+	margin-top: 100px;
+	position: center;
 	font-size: 100px;
 	color: #98AFC7;
 	border-color: #6D7B8D;
@@ -50,7 +52,7 @@ li a:hover {
 
 .content {
 	background-image: url("images/Halfmoon.jpg");
-	background-size: contain;
+	background-size: 300px 300px;
 }
 
 .links {
