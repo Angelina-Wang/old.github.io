@@ -3,11 +3,15 @@ h1 {
 	color: #2e69a3;
 }
 
+nav li {
+	display: inline;
+}
+
 .menu {
 	font-family: Trebuchet MS;
 }
 
 .container {
-	background-image: url("images/Beach.JPG");
+	background-image: url("images/Onlinebeach.JPG");
 	background-size: cover;
 }
