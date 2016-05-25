@@ -1,6 +1,7 @@
 h1 {
 	font-family: Arial;
 	color: #2e69a3;
+	position: center;
 }
 
 ul {
@@ -39,7 +40,7 @@ li a:hover {
 	font-family: Trebuchet MS;
 }
 
-.container {
+.content {
 	background-image: url("images/Onlinebeach.jpg");
 	background-size: cover;
 }
