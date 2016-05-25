@@ -16,13 +16,14 @@ ul {
 li {
 	display: inline;
 	border-right: 1px solid #bbb;
+	float: left;
 }
 
 li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 8px;
 	text-decoration: none;
 }
 
