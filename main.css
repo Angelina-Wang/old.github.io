@@ -42,6 +42,16 @@ li a:hover {
 	border-width: 10px;
 }
 
+#bg.bg {
+	min-height: 100%
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
 .container {
 	opacity:0.8;
 	background-color: #6495ED;
@@ -65,7 +75,7 @@ li a:hover {
 	font-family: Trebuchet MS;
 }
 
-.containermain {
+/*.containermain {
 	opacity:0.8;
 	background-image: url("http://img04.deviantart.net/25c7/i/2007/242/0/0/on_a_cloudy_beach_by_jchanders.jpg");
 	width: 100%;
@@ -75,7 +85,7 @@ li a:hover {
 	z-index: 1000;
 	background-size: contain;
 	background-repeat: no-repeat;
-}
+}*/
 
 .links {
 	display: flex;
