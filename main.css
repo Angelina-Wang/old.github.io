@@ -34,7 +34,7 @@ li a:hover {
 }
 
 #name {
-	margin-top: 40%;
+	margin-top: 400px;
 	font-size: 65px;
 	color: white;
 	text-align: center;
@@ -69,8 +69,8 @@ li a:hover {
 	background-image: url("http://img04.deviantart.net/25c7/i/2007/242/0/0/on_a_cloudy_beach_by_jchanders.jpg");
 	width: 100%;
 	height: 100%;
-	/*background-size: contain;
-	background-repeat: no-repeat;*/
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .links {
@@ -81,7 +81,7 @@ li a:hover {
 
 .links a {
 	position: relative;
-	margin-top: 50%;
+	margin-top: 400px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
