@@ -40,16 +40,19 @@ li a:hover {
 	text-align: center;
 	border-color: black;
 	border-width: 10px;
+	z-index: 2;
 }
 
 #bg.bg {
+	opacity: 0.8;
 	min-height: 100%;
-	min-width: 100%;
+	min-width: 1024px;
+	width: 100%;
 	height: auto;
 	position: fixed;
 	top: 0;
 	left: 0;
-	opacity: 0.8;
+	z-index: 1;
 }
 
 .container {
