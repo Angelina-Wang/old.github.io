@@ -2,6 +2,7 @@ h1 {
 	font-family: Arial;
 	color: #2e69a3;
 	position: center;
+	margin-top: 20px;
 }
 
 ul {
@@ -32,6 +33,13 @@ li a:hover {
 	background-color: #111;
 }
 
+#name {
+	font-size: 100px;
+	color: #98AFC7;
+	border-color: #6D7B8D;
+	border-width: 3px;
+}
+
 .active {
 	background-color: #25383C;
 }
@@ -41,8 +49,8 @@ li a:hover {
 }
 
 .content {
-	background-image: url("images/Onlinebeach.jpg");
-	background-size: cover;
+	background-image: url("images/Halfmoon.jpg");
+	background-size: contain;
 }
 
 .links {
