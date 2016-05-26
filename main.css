@@ -13,6 +13,7 @@ ul {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1000;
 }
 
 li {
@@ -34,7 +35,8 @@ li a:hover {
 }
 
 #name {
-	margin-top: 200px;
+	margin-top: 150px;
+	margin-left: 30%;
 	font-size: 70px;
 	color: white;
 	text-align: center;
@@ -44,12 +46,12 @@ li a:hover {
 	z-index: 200;
 }
 
-#bg.bg {
-	opacity: 0.5;
+#bg {
+	opacity: 0.6;
 	position: fixed;
 	min-height: 100%;
-	min-width: 2000px;
-	width: 110%;
+	min-width: 1240px;
+	width: 100%;
 	height: auto;
 	top: 0px;
 	left: 0px;
@@ -57,7 +59,7 @@ li a:hover {
 }
 
 .container {
-	opacity: 0.8;
+	opacity: 0.9;
 	background-color: #6495ED;
 	position: fixed;
 	width: 100%;
@@ -69,6 +71,11 @@ li a:hover {
 
 .content {
 	margin-top: 100px;
+}
+
+.pics h2{
+	margin-top: 150px;
+	margin-left: 20%;
 }
 
 .active {
@@ -90,6 +97,22 @@ li a:hover {
 	background-size: contain;
 	background-repeat: no-repeat;
 }*/
+
+.about {
+	display: flex;
+	margin-left: 100px;
+}
+
+.about p {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 150px;
+}
+
+.connections {
+	display: block;
+	text-align: center;
+}
 
 .links {
 	display: flex;
