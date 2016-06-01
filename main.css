@@ -67,6 +67,7 @@ li a:hover {
 	top: 0px;
 	left: 0px;
 	z-index: 50;
+	font-family: "Comic Sans MS";
 }
 
 .content {
@@ -106,7 +107,7 @@ li a:hover {
 .about p {
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .connections {
