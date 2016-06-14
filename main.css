@@ -68,10 +68,12 @@ li a:hover {
 	left: 0px;
 	z-index: 50;
 	font-family: "Comic Sans MS";
+	overflow: scroll;
 }
 
 .content {
 	margin-top: 100px;
+	overflow: scroll;
 }
 
 .pics h2{
@@ -130,4 +132,10 @@ li a:hover {
 
 .links a:active {
 	top: 2px;
+}
+
+.projects {
+	margin-top: -10px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
