@@ -3,6 +3,8 @@
 <head>
 	<title>Angelina Wang</title>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 	<!-- <meta charset="utf-8"/> -->
 </head>
 <body>
@@ -18,20 +20,39 @@
 		</div>
 		<div class="content">
 			<div class="projects">
-				<h2>Scheme Interpreter</h2>
-				<p>Building a Scheme interpreter in Python was a challenge because it was my first major cs project and I had to fully understand how languages are implemented--and then subsequently implement that myself. The toughest part was picturing how each part that I was implementing would fit into the interpreter as a whole, so that each "piece" of the input that I separated would be redirected to the proper function. One topic I struggled with initially was understanding recursion. It seemed so strange that a method could call, and consequently use, itself. I'm pretty sure I had a (not so) similar struggle in second grade when I played soccer and tried to do a throw-in to myself. Except in computer science, unlike soccer, using yourself is allowed. Anyway, some drawn out environment diagrams and accidental infinite loops later, it all made sense.</p>
+				<div class="project">
+					<h2>Scheme Interpreter</h2>
+					<div class="description">
+						<p>Building a Scheme interpreter in Python was a challenge because it was my first major cs project and I had to fully understand how languages are implemented--and then subsequently implement that myself. The toughest part was picturing how each part that I was implementing would fit into the interpreter as a whole, so that each "piece" of the input that I separated would be redirected to the proper function. One topic I struggled with initially was understanding recursion. It seemed so strange that a method could call, and consequently use, itself. I'm pretty sure I had a (not so) similar struggle in second grade when I played soccer and tried to do a throw-in to myself. Except in computer science, unlike soccer, using yourself is allowed. Anyway, some drawn out environment diagrams and accidental infinite loops later, it all made sense.</p>
+					</div>
+				</div>
+				<div class="project">
+					<h2>Text Editor</h2>
+					<div class="description">
+						<p>A text editor built from scratch that has clicking, cursor, scroll bar, word wrap, open/save, size, and undo/redo capabilities. I will never forget the moment I got the cursor to blink consistently in a way that did not make me dizzy.</p>
+					</div>
+				</div>
 
-				<h2>Text Editor</h2>
-				<p>A text editor built from scratch that had clicking, cursor, scroll bar, word wrap, open/save, and undo/redo capabilities. I will never forget that moment, a couple bags of sour skittles in, when the cursor blinked consistently, and in a way that did not make me dizzy.</p>
+				<div class="project">
+					<h2>Bear Maps</h2>
+					<div class="description">
+						<p>A version of Google Maps (or Apple Maps, depending on your loyalties) for the Berkeley area that used the A* search algorithm to locate the most efficient routes from one destination to another. I rastered using a quad tree made up of images with varying amounts of detail, depending on the amount the user zoomed in. When searching for locations in the area using the search bar, a trie of all the locations provides a list of suggestions that match the prefix inputted.</p>
+					</div>
+				</div>
 
-				<h2>Bear Maps</h2>
-				<p>A version of Google Maps (or Apple Maps, depending on your loyalties) for the Berkeley area that used the A* search algorithm to locate the most efficient routes from one destination to another. I rastered using a quad tree made up of images with varying amounts of detail, depending on the amount the user zoomed in.</p>
+				<div class="project">
+					<h2>Voice Controlled Robot</h2>
+					<div class="description">
+						<p>A robot that responds to 4 voice commands, which are identified using PCA analysis and moves based on the controls we created. Here is a <a href="https://www.youtube.com/watch?v=tMfif46MHRk">link</a> to a demonstration, even you can help make our poorly filmed video the next hit internet sensation.</p>
+					</div>
+				</div>
 
-				<h2>Voice Controlled Robot</h2>
-				<p>A robot that responds to 4 voice commands, which are identified using PCA analysis and moves based on the controls we created. Here is a <a href="https://www.youtube.com/watch?v=tMfif46MHRk">link</a> to a demonstration, even you can help make our poorly filmed video the next hit internet sensation.</p>
-
-				<h2>High School Physics Video</h2>
-				<p>I'm going to be honest, there's not a lot of intellectual, academic, thought-provoking stuff going on in <a href="https://www.youtube.com/watch?v=gJOh3IPAo3c">this</a>. But maybe you'll find a pun or two that you enjoy, or at least don't groan too hard at.</p>
+				<div class="project">
+					<h2>High School Physics Video</h2>
+					<div class="description">
+						<p>I'm going to be honest, there's not a lot of intellectual, academic, thought-provoking stuff going on in <a href="https://www.youtube.com/watch?v=gJOh3IPAo3c">this</a>. But maybe you'll find a pun or two that you enjoy, or at least don't groan too hard at.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
